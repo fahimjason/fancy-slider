@@ -157,3 +157,19 @@ const displayError = error => {
 sliderBtn.addEventListener('click', function () {
   createSlider()
 })
+
+
+//const sliderTime = document.getElementById('duration').value || 1000;
+  // const duration = sliderTime || 1000;
+  // if (sliderTime < 0) {
+  //   document.getElementById('duration').value = 'Time can\'t be negative.';
+  //   console.log('Time can\'t be negative.')
+  // }
+  // else {
+
+  //   changeSlide(0)
+  //   timer = setInterval(function () {
+  //     slideIndex++;
+  //     changeSlide(slideIndex);
+  //   }, duration);;
+  // }
